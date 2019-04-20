@@ -97,6 +97,11 @@
 <script>
 export default {
   name: "HelloWorld",
+  methods: {
+    goodAss(fg){
+      return 'good'
+    }
+  },
   props: {
     msg: String
   }
